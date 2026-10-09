@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chalianne Irish Salinas-Gallinero — Executive Assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F4F0E8; --bg2:#EBE5D8; --ink:#2B2326; --muted:#6B6258;
+  --plum:#5B1F3A; --plum-d:#431529; --olive:#6B6B3A; --line:rgba(107,107,58,.35);
+  --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#1E1A1B;--bg2:#272123;--ink:#F1EBE0;--muted:#B5AB9C;--plum:#C98AA8;--plum-d:#E0A9C2;--olive:#A8A86B;--line:rgba(168,168,107,.35)}
+}
+:root[data-theme="dark"]{--bg:#1E1A1B;--bg2:#272123;--ink:#F1EBE0;--muted:#B5AB9C;--plum:#C98AA8;--plum-d:#E0A9C2;--olive:#A8A86B;--line:rgba(168,168,107,.35)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+.mono{font-family:var(--serif);font-size:22px;font-weight:600;letter-spacing:.04em;color:var(--plum)}
+nav ul{display:flex;gap:26px;list-style:none;padding:0;font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--plum)}
+.hero{display:grid;grid-template-columns:1.5fr 1fr;gap:48px;align-items:end;padding:96px 0 80px}
+.eyebrow{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--olive);font-weight:500;margin-bottom:28px;display:flex;align-items:center;gap:14px}
+.eyebrow::before{content:"";width:44px;height:1px;background:var(--olive)}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(52px,9vw,112px);line-height:.95;letter-spacing:-.02em}
+h1 em{display:block;font-style:italic;font-weight:400;color:var(--plum)}
+.title{font-family:var(--serif);font-size:clamp(20px,2.4vw,28px);margin-top:28px;color:var(--muted);font-style:italic}
+.hero-side p{font-size:16px;max-width:380px;margin-bottom:32px}
+.btn{display:inline-block;background:var(--plum);color:#F4F0E8;padding:16px 34px;font-size:12px;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;font-weight:500;transition:.25s}
+:root[data-theme="dark"] .btn{color:#1E1A1B}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn{color:#1E1A1B}}
+.btn:hover{background:var(--plum-d);transform:translateY(-2px)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stat{padding:34px 20px;border-right:1px solid var(--line)}.stat:last-child{border:0}
+.stat b{font-family:var(--serif);font-size:52px;font-weight:500;color:var(--plum);display:block;line-height:1}
+.stat span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+section{padding:96px 0}
+.label{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--olive);font-weight:500;margin-bottom:14px}
+h2{font-family:var(--serif);font-weight:500;font-size:clamp(34px,5vw,56px);line-height:1.05;margin-bottom:48px}
+.about{display:grid;grid-template-columns:1fr 1.4fr;gap:56px}
+.about p{margin-bottom:18px;font-size:17px}
+.alt{background:var(--bg2)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.card{background:var(--bg);padding:36px 30px}
+.alt .card{background:var(--bg2)}
+.card i{font-family:var(--serif);font-style:normal;color:var(--olive);font-size:15px;letter-spacing:.1em}
+.card h3{font-family:var(--serif);font-weight:500;font-size:26px;margin:10px 0 10px;line-height:1.15}
+.card p{font-size:14.5px;color:var(--muted)}
+.tl{border-left:1px solid var(--line);padding-left:36px;margin-left:6px}
+.job{position:relative;padding-bottom:56px}
+.job::before{content:"";position:absolute;left:-42px;top:12px;width:11px;height:11px;border-radius:50%;background:var(--plum)}
+.job .when{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--olive);font-weight:500}
+.job h3{font-family:var(--serif);font-weight:500;font-size:32px;line-height:1.1;margin:6px 0 4px}
+.job .org{color:var(--muted);font-style:italic;font-family:var(--serif);font-size:19px;margin-bottom:16px}
+.job ul{padding-left:18px;font-size:15px}.job li{margin-bottom:8px}.job li::marker{color:var(--olive)}
+.pills{display:flex;flex-wrap:wrap;gap:10px}
+.pills span{border:1px solid var(--olive);color:var(--ink);padding:8px 18px;font-size:13px;letter-spacing:.04em}
+.cols{display:grid;grid-template-columns:repeat(2,1fr);gap:56px}
+.cols h3{font-family:var(--serif);font-weight:500;font-size:28px;margin-bottom:18px}
+.cols p{margin-bottom:8px;font-size:15px}.cols b{font-weight:500}
+.contact{text-align:center}
+.contact h2{font-size:clamp(40px,7vw,84px);margin-bottom:28px}.contact h2 em{color:var(--plum)}
+.contact p{max-width:520px;margin:0 auto 36px}
+.links{margin-top:36px;font-size:14px;color:var(--muted);display:flex;gap:28px;justify-content:center;flex-wrap:wrap}
+footer{border-top:1px solid var(--line);padding:28px 0;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center}
+@media (max-width:860px){
+  nav ul{display:none}
+  .hero,.about,.cols{grid-template-columns:1fr}.hero{padding:64px 0 56px}
+  .stats{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .grid3{grid-template-columns:1fr}section{padding:64px 0}
+}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><div class="mono">CISG</div>
+<ul><li><a href="#about">About</a></li><li><a href="#work">Work</a></li><li><a href="#experience">Experience</a></li><li><a href="#toolkit">Toolkit</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+
+<header class="wrap hero">
+  <div>
+    <div class="eyebrow">Executive Assistant · Portfolio</div>
+    <h1>Chalianne Irish <em>Salinas-Gallinero</em></h1>
+    <p class="title">Executive Assistant &amp; Senior Administrative Officer</p>
+  </div>
+  <div class="hero-side">
+    <p>Ten years of quietly running the details, so executives can focus on the decisions. Calendars without conflicts, inboxes under control, and cross-border teams that stay in sync.</p>
+    <a class="btn" href="#work">Explore My Work</a>
+  </div>
+</header>
+
+<div class="wrap"><div class="stats">
+  <div class="stat"><b>10+</b><span>Years supporting executives</span></div>
+  <div class="stat"><b>8–10h</b><span>Saved per executive weekly</span></div>
+  <div class="stat"><b>0</b><span>Scheduling conflicts</span></div>
+  <div class="stat"><b>3</b><span>Countries coordinated: DE · AT · ES</span></div>
+</div></div>
+
+<section id="about"><div class="wrap about">
+  <div><div class="label">About</div><h2>Discreet, proactive, precise.</h2></div>
+  <div>
+    <p>I’ve spent a decade supporting senior executives inside a German-owned, multi-business organization, managing everything from complex calendars and correspondence to travel, records and daily office operations.</p>
+    <p>I work across cultures and time zones with clients and stakeholders in Germany, Austria and Spain, and lead a team of 5–10 administrative staff. Colleagues know me for clear communication, close attention to detail and absolute confidentiality.</p>
+    <p>I’m now open to remote Executive Assistant roles, full-time or part-time, across US, UK and AU time zones.</p>
+  </div>
+</div></section>
+
+<section id="work" class="alt"><div class="wrap">
+  <div class="label">Selected Work</div><h2>What I do best</h2>
+  <div class="grid3">
+    <div class="card"><i>01</i><h3>Calendar &amp; Priorities</h3><p>Managed executive calendars and complex schedules across departments with zero conflicts.</p></div>
+    <div class="card"><i>02</i><h3>Inbox &amp; Correspondence</h3><p>Handled emails, reports and presentations with 100% accuracy and confidentiality.</p></div>
+    <div class="card"><i>03</i><h3>Meetings &amp; Follow-through</h3><p>Prepared agendas and documented minutes, reducing missed action items by 30%.</p></div>
+    <div class="card"><i>04</i><h3>Travel Coordination</h3><p>Planned domestic and international itineraries across 10+ trips with zero booking errors.</p></div>
+    <div class="card"><i>05</i><h3>Process Improvement</h3><p>Built administrative systems that cut manual workload and lifted office efficiency by 20%.</p></div>
+    <div class="card"><i>06</i><h3>Stakeholder Liaison</h3><p>Bridged executives, clients and international partners, resolving issues within 24 hours.</p></div>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <div class="label">Experience</div><h2>A decade of trusted support</h2>
+  <div class="tl">
+    <div class="job"><div class="when">Aug 2020 – Aug 2026</div>
+      <h3>Senior Administrative Officer / Executive Assistant</h3>
+      <div class="org">German-owned multi-business company · Intermed Language Institute, Athena Nursing Care, Philmanpower GmbH</div>
+      <ul>
+        <li>Managed executive calendars, meetings and priorities with zero scheduling conflicts.</li>
+        <li>Supervised and delegated to 5–10 administrative staff, raising productivity and on-time completion.</li>
+        <li>Implemented systems that saved executives 8–10+ hours per week.</li>
+        <li>Oversaw daily operations and records, keeping data organized and confidential.</li>
+        <li>Supported marketing and operational initiatives across multiple business units.</li>
+      </ul></div>
+    <div class="job"><div class="when">Aug 2015 – Jul 2020</div>
+      <h3>Administrative Assistant cum Receptionist</h3>
+      <div class="org">Same organization</div>
+      <ul>
+        <li>Assigned and tracked staff tasks, with 100% on-time completion of deadlines.</li>
+        <li>Arranged travel and accommodation for staff and executives with zero booking issues.</li>
+        <li>Recorded office expenses with 99% accuracy; handled client inquiries and front-desk operations.</li>
+      </ul></div>
+    <div class="job"><div class="when">Sep 2014 – May 2015</div>
+      <h3>Customer Service Representative</h3>
+      <div class="org">TTECH</div>
+      <ul>
+        <li>Supported U.S. health insurance members on benefits, claims, eligibility and billing, in line with HIPAA.</li>
+        <li>Achieved 90%+ CSAT and met quality and service-level targets.</li>
+      </ul></div>
+  </div>
+</div></section>
+
+<section id="toolkit" class="alt"><div class="wrap">
+  <div class="label">Toolkit</div><h2>Skills &amp; tools</h2>
+  <div class="pills" style="margin-bottom:56px">
+    <span>Calendar Management</span><span>Email &amp; Correspondence</span><span>Travel Coordination</span><span>Agenda &amp; Minutes</span><span>Operations Support</span><span>Stakeholder Communication</span><span>Process Improvement</span><span>Records Management</span><span>Cross-Timezone Coordination</span>
+  </div>
+  <div class="cols">
+    <div><h3>Tech proficiency</h3>
+      <p><b>Productivity:</b> Google Workspace, Microsoft 365, Notion</p>
+      <p><b>Communication:</b> Zoom, Google Meet, Slack</p>
+      <p><b>CRM &amp; PM:</b> HubSpot, Asana</p>
+      <p><b>AI &amp; Automation:</b> ChatGPT, Claude, GHL (learning)</p>
+      <p><b>Design:</b> Canva, CapCut</p></div>
+    <div><h3>Credentials</h3>
+      <p><b>Google Workspace Certification</b>, Google, 2026</p>
+      <p><b>Project Management Fundamentals</b>, Coursera, 2026</p>
+      <p><b>B.S. Hotel and Restaurant Management</b>, West Visayas State University, 2014</p>
+      <p><b>Languages:</b> English (fluent) · Filipino &amp; Hiligaynon (native) · German (A1, learning)</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="label">Remote Readiness</div><h2>Set up to work from anywhere</h2>
+  <div class="grid3">
+    <div class="card"><h3>Connectivity</h3><p>100 Mbps fiber with a mobile data hotspot as backup.</p></div>
+    <div class="card"><h3>Workspace</h3><p>Dedicated, quiet home office with UPS backup power, laptop, noise-cancelling headset and HD webcam.</p></div>
+    <div class="card"><h3>Availability</h3><p>Full-time or part-time, flexible across US, UK and AU time zones.</p></div>
+  </div>
+</div></section>
+
+<section id="contact" class="alt"><div class="wrap contact">
+  <div class="label">Contact</div>
+  <h2>Let’s make your days <em>run smoothly.</em></h2>
+  <p>Looking for an Executive Assistant who anticipates needs and protects your time? I’d love to hear from you.</p>
+  <a class="btn" href="mailto:chalianne.salinas@gmail.com">Email Me</a>
+  <div class="links"><span>chalianne.salinas@gmail.com</span><span>+63 931 090 3788</span><span>Iloilo City, Philippines</span><a href="https://www.linkedin.com/in/chalianne-irish-salinas" target="_blank" rel="noopener">LinkedIn</a></div>
+</div></section>
+
+<footer>© 2026 Chalianne Irish Salinas-Gallinero</footer>
+</body>
+</html>
